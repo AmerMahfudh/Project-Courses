@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Details</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/courses-details.css">
+</head>
+<body>
+  
+      <!-- Start navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="btn-nav-menu-open" onclick="openNav()">
+                <span></span>
+            </div>
+            <a href="../index.HTML">
+                <img class="logo" src="../imgs/logo.png" alt="Het Acad Platform">
+            </a>
+            <ul class="main-nav">
+                <li>
+                    <a href="../index.HTML"><img src="../imgs/icon-home.png" alt=""></a>
+                    <span>الرئيسية</span>
+                </li>
+                <li>
+                    <a href="../pages/all-courses.html"><img src="../imgs/icon-courses.png" alt=""></a>
+                    <span>الدورات</span>
+                </li>
+                <li class="li-dropdown">
+                    <a><img src="../imgs/icon-Pages.png" alt=""></a>
+                    <span>الصفحات</span>
+                    <div class="dropdown">
+                        <a class="item-dropdown" href="../pages/about-us.html">من نحن</a>
+                        <a class="item-dropdown" href="../pages/static-page.html">اتفاق السرية</a>
+                        <a class="item-dropdown" href="../pages/new-article.html">أحدث المقالات</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="../pages/content-us.html"><img src="../imgs/icon-contact-us.png" alt=""></a>
+                    <span>اتصل بنا</span>
+                </li>
+            </ul>
+            <div class="register">
+                <a class="button" href="../pages/login.html">تسجيل دخول</a>
+                <a class="button" href="../pages/signin.html">انشاء حساب</a>
+            </div>
+            
+            <div class="main-nav-mobile main-nav-mobile-close " id="main-nav-mobile">
+                <div class="btn-nav-menu-close" onclick="closeNav()">
+                    <span></span>
+                </div>
+                <ul>
+                    <li>
+                        <img src="../imgs/icon-home.png" alt="">
+                        <a href="../index.HTML">الرئيسية</a>
+                    </li>
+                    <li>
+                        <img src="../imgs/icon-courses.png" alt="">
+                        <a href="../pages/all-courses.html">الدورات</a>
+                    </li>
+                    <li onclick="dropdownRemove()">
+                        <img src="../imgs/icon-Pages.png" alt="">
+                        <a href="#">الصفحات</a>
+                    </li>
+                    <li class="dropdown-remove" id="dropdown">
+                        <a class="item-dropdown" href="../pages/about-us.html">من نحن</a>
+                        <a class="item-dropdown" href="../pages/static-page.html">اتفاق السرية</a>
+                        <a class="item-dropdown" href="../pages/new-article.html">أحدث المقالات</a>
+                    </li>
+                    <li>
+                        <img src="../imgs/icon-contact-us.png" alt="">
+                        <a href="../pages/content-us.html">اتصل بنا</a>
+                    </li>
+                </ul>
+                <form>
+                    <img src="../imgs/icon-search-.png" alt="">
+                    <input type="text" placeholder="بحث..">
+                </form>
+                <div class="register register-nav-mobile">
+                    <a class="button" href="../pages/login.html">تسجيل دخول</a>
+                    <a class="button" href="../pages/signin.html">انشاء حساب</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End navbar -->
+
+    <!-- Start details courses header  -->
+    <div class="header_details_courses">
+        <div class="background-header">
+            <div class="container">
+                <h2>تفاصيل الدورة</h2>
+                <p>دبلوم الهكر الأخلاقي واختبار الاختراق</p>
+            </div>
+        </div>
+    </div>
+    <!-- End  details courses header  -->
+
+    <!-- Start Details Courses -->
+    <div class="details-Courses">
+        <div class="container">
+
+            <div class="all-details-courses">
+                <ul class="navbar-details">
+                    <li><button class="btn-active" onclick="disBlock(0)">الوصف</button></li>
+                    <li><button onclick="disBlock(1)">ماذا سنتعلم</button></li>
+                    <li><button onclick="disBlock(2)">المزيد</button></li>
+                    <li><button onclick="disBlock(3)">المعلم</button></li>
+                </ul>
+                <div class="all-details">
+
+                    <div class="active-courses description">
+                        <h2>وصف موجز عن دبلوم الهكر الأخلاقي واختبار الاختراق</h2>
+                        <p>أكاديمية HET للتدريب والتطوير البرمجي تعلن عن أقوى دبلوم في "الهكر الأخلاقي واختبار الاختراق"
+                            "Ethical Hacker & Penetration Test" لكي تصبح هكر محترف يجب ان يكون لديك اساسيات النتورك و
+                            معرفه بانظمة التشغيل للتمكن من اختبار اختراقها</p>
+                    </div>
+
+                    <div class="will-learing">
+                        <h2>تفاصيل دورة دبلوم الهكر الأخلاقي واختبار الاختراق</h2>
+                        <ul>
+                            <li>⁃شرح اساسيات النتورك و IPaddress</li>
+                            <li>⁃شرح اساسيات النتورك و IPaddress</li>
+                            <li>⁃شرح اساسيات النتورك و IPaddress</li>
+                            <li>⁃شرح اساسيات النتورك و IPaddress</li>
+                        </ul>
+                    </div>
+
+                    <div class="more">
+                        <h2>مزيد من المعلومات حول دبلوم الهكر الأخلاقي واختبار الاختراق</h2>
+                        <p>Ethical Hacker & Penetration Test"</p>
+                    </div>
+
+                    <div class="teacher">
+                        <h2>المعلم</h2>
+                        <p>Walid Alnouaimy</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="cart-details">
+                <img src="../imgs/Network.jpg" alt="">
+                <div class="content">
+                    <p>اختر مدة الاشتراك : </p>
+                    <div class="payment-method">
+                        <button>2 شهر || 1800$</button>
+                        <button>4 شهر || 4500$</button>
+                    </div>
+                    <a href="../pages/checkout.html" class="register-now">سجل الآن</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- End Details Courses -->
+
+
+</body>
+</html>
